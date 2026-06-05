@@ -39,7 +39,7 @@ Each week has its own folder under `phase-1/` with:
 |---|---|---|
 | Week 0 | Proxmox Golden Image & Mass Provisioning | (to be created) |
 | Week 1 | Boot Process & Recovery | (to be created) |
-| Week 2 | Storage Deep Dive (LVM, filesystems, disk‑full recovery) | (to be created) |
+| Week 2 | Storage Deep Dive (LVM, filesystems, disk‑full recovery) | [Week 0 Details]./phase-1/week-00-proxmox-golden-image/README.md) |
 | Week 3 | systemd & Services (unit files, dependencies, troubleshooting) | (to be created) |
 | Week 4 | Networking Fundamentals (ip, DNS, routing, firewalld, tcpdump) | (to be created) |
 | Week 5 | SELinux (AVC denials, semanage, booleans, ports) | (to be created) |
