@@ -57,16 +57,6 @@ a system without major data lost if at all possible.
 
 ---
 
-## Deliverables
-
-- [boot-recovery-runbook.md](./boot-recovery-runbook.md)
-- [grub-configuration.md](./grub-configuration.md)
-- [root-password-reset.md](./root-password-reset.md)
-- [fstab-recovery.md](./fstab-recovery.md)
-- [screenshots/](./screenshots/)
-
----
-
 ## Key Commands Reference
 
 | Command | Purpose |
