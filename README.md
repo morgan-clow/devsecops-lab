@@ -38,7 +38,7 @@ Each week has its own folder under `phase-1/` with:
 | Week | Topic | Link |
 |---|---|---|
 | Week 0 | Proxmox Golden Image & Mass Provisioning | https://github.com/morgan-clow/devsecops-lab/tree/main/phase-1/week-00-proxmox-golden-image |
-| Week 1 | Boot Process & Recovery | (to be created) |
+| Week 1 | Boot Process & Recovery | [(to be created)](https://github.com/morgan-clow/devsecops-lab/tree/main/phase-1/week-01-boot-recovery) |
 | Week 2 | Storage Deep Dive (LVM, filesystems, disk‑full recovery) | (to be created) |
 | Week 3 | systemd & Services (unit files, dependencies, troubleshooting) | (to be created) |
 | Week 4 | Networking Fundamentals (ip, DNS, routing, firewalld, tcpdump) | (to be created) |
