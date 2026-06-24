@@ -60,7 +60,7 @@ deleted afterward is unaffected by a rollback.
 
 ## Deliverables
 
-- [lvm-live-resize.md](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-02-storage-deep-dive/docs/disk-full-incident.md)
+- [lvm-live-resize.md](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-02-storage-deep-dive/docs/lvm-live-resize.md)
 - [disk-full-incident.md](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-02-storage-deep-dive/docs/disk-full-incident.md)
 - [lvm-snapshot-rollback.md](./lvm-snapshot-rollback.md)
 - [screenshots/](./screenshots/)
