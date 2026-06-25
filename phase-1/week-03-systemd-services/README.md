@@ -100,7 +100,7 @@ whenever overrides are present.
 - [x] [Lab 4 — Restart Policies](./lab4-restart-policies.md)
       — proved `on-failure` is tied to exit code, not
       simply "the process stopped"
-- [x] [Lab 5 — Drop-in Overrides](./lab5-drop-in-overrides.md)
+- [x] [Lab 5 — Drop-in Overrides](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-03-systemd-services/docs/drop-in-override.md)
       — modified service behavior without touching the
       original unit file
 
