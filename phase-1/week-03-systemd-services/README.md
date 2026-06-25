@@ -97,7 +97,7 @@ whenever overrides are present.
       — proved `Requires=` cascades failures downward
       but never restarts dependents automatically when
       the dependency recovers
-- [x] [Lab 4 — Restart Policies](./lab4-restart-policies.md)
+- [x] [Lab 4 — Restart Policies](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-03-systemd-services/docs/restart-policies.md)
       — proved `on-failure` is tied to exit code, not
       simply "the process stopped"
 - [x] [Lab 5 — Drop-in Overrides](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-03-systemd-services/docs/drop-in-override.md)
