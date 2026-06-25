@@ -90,7 +90,7 @@ whenever overrides are present.
 - [x] [Lab 1 — Custom Service](./lab1-custom-service.md)
       — built a unit file from scratch, verified
       process tracking and log behavior
-- [x] [Lab 2 — Broken ExecStart](./lab2-broken-execstart.md)
+- [x] [Lab 2 — Broken ExecStart](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-03-systemd-services/docs/broken-execstart.md)
       — diagnosed `status=203/EXEC`, hit and recovered
       from systemd's restart rate limiter
 - [x] [Lab 3 — Dependency Chain](./lab3-dependency-chain.md)
