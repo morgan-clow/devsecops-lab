@@ -30,24 +30,24 @@ diagnostic command.
 
 ## Labs Completed
 
-- [x] [Lab 1 — Default Gateway Misconfiguration](./lab1-gateway-routing.md)
+- [x] [Lab 1 — Default Gateway Misconfiguration](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-04-networking/docs/gateway-routing.md)
       — proved local subnet traffic is unaffected by a
       broken gateway; verified ARP `FAILED` state as
       direct evidence rather than assumption
-- [x] [Lab 2 — DNS Misconfiguration](./lab2-dns-recovery.md)
+- [x] [Lab 2 — DNS Misconfiguration](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-04-networking/docs/dns-recovery.md)
       — proved raw-IP ping bypasses DNS entirely while
       hostname ping requires it; established the
       "IP works, hostname doesn't = DNS problem"
       diagnostic pattern
-- [x] [Lab 3 — firewalld SSH Lockout](./lab3-firewalld-ssh-lockout.md)
+- [x] [Lab 3 — firewalld SSH Lockout](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-04-networking/docs/firewalld-ssh-lockout.md)
       — simulated and recovered from a real SSH
       lockout, using an existing session as a safety
       net rather than risking total lockout
-- [x] [Lab 4 — tcpdump Packet Capture](./lab4-tcpdump-analysis.md)
+- [x] [Lab 4 — tcpdump Packet Capture](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-04-networking/docs/tcpdump-analysis.md)
       — learned why unfiltered captures are unusable
       noise, then used host/port filters to read real
       ICMP and TCP packet structure
-- [x] [Lab 5 — tc/netem Network Impairment](./lab5-tc-netem-impairment.md)
+- [x] [Lab 5 — tc/netem Network Impairment](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-04-networking/docs/tc-netem-impairment.md)
       — deliberately injected and measured artificial
       latency and packet loss, then fully restored
       normal conditions
