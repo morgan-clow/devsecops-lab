@@ -87,7 +87,7 @@ whenever overrides are present.
 
 ## Labs Completed
 
-- [x] [Lab 1 — Custom Service](./lab1-custom-service.md)
+- [x] [Lab 1 — Custom Service](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-03-systemd-services/docs/custom-service.md)
       — built a unit file from scratch, verified
       process tracking and log behavior
 - [x] [Lab 2 — Broken ExecStart](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-03-systemd-services/docs/broken-execstart.md)
