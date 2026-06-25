@@ -93,7 +93,7 @@ whenever overrides are present.
 - [x] [Lab 2 — Broken ExecStart](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-03-systemd-services/docs/broken-execstart.md)
       — diagnosed `status=203/EXEC`, hit and recovered
       from systemd's restart rate limiter
-- [x] [Lab 3 — Dependency Chain](./lab3-dependency-chain.md)
+- [x] [Lab 3 — Dependency Chain](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-03-systemd-services/docs/dependency-chain.md)
       — proved `Requires=` cascades failures downward
       but never restarts dependents automatically when
       the dependency recovers
