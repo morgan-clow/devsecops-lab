@@ -36,7 +36,7 @@ audit2why correctly explains that a denial was caused by a missing type enforcem
 
 [Lab 3 Context Corruption and Restoration](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-05-SELinux/docs/restoring-SELinux-labels.md) corrupted both a standard system path and a custom path with an existing policy rule, proving restorecon's behavior depends entirely on whether a correct policy answer already exists for that path.
 
-[Lab 4 Automated Relabel Playbook](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-05-SELinux/docs/automate-SELinux-Relabel) built an idempotent Ansible playbook using community.general.sefcontext and a changed_when-guarded restorecon task, automating the manual workflow from Labs 1-3.
+[Lab 4 Automated Relabel Playbook](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-05-SELinux/docs/automate-SELinux-Relabel.md) built an idempotent Ansible playbook using community.general.sefcontext and a changed_when-guarded restorecon task, automating the manual workflow from Labs 1-3.
 
 ## Real-World Incident Patterns Demonstrated
 
