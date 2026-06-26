@@ -1,0 +1,47 @@
+---
+- name: Ensure correct SELinux context for custom web content
+  hosts: localhost
+  become: true
+  vars:
+    web_dir: /webcontent
+    web_file: index.html
+    web_context_type: httpd_sys_content_t
+  tasks:
+    - name: Install httpd
+      ansible.builtin.package:
+        name: httpd
+        state: present
+
+    - name: Start and Enable httpd
+      ansible.builtin.service:
+        name: httpd
+        state: started
+        enabled: true      
+          
+    - name: Ensure the directory exists
+      ansible.builtin.file:
+        path: "{{ web_dir }}"
+        state: directory
+        mode: "0755"
+
+    - name: Ensure index.html file exists
+      ansible.builtin.lineinfile:
+        path: "{{ web_dir }}/{{ web_file }}"
+        line: "Did this work ?"
+        create: true
+
+    - name: Set persistent SELinux fcontext policy for the directory
+      community.general.sefcontext:
+        target: "{{ web_dir }}(/.*)?"
+        setype: "{{ web_context_type }}"
+        state: present
+
+    - name: Apply the SELinux context to existing files
+      ansible.builtin.command:
+        cmd: "restorecon -Rv {{ web_dir }}"
+      register: restorecon_result
+      changed_when: "'Relabeled' in restorecon_result.stdout"
+
+    - name: Show what restorecon actually changed
+      ansible.builtin.debug:
+        var: restorecon_result.stdout_lines
