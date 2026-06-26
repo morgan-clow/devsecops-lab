@@ -30,13 +30,13 @@ audit2why correctly explains that a denial was caused by a missing type enforcem
 
 ## Labs Completed
 
-Lab 1, Apache File Context Mismatch: deployed content in a non-standard directory, observed a real 403 and the AVC denial behind it, recognized audit2allow's suggestion was the wrong fix, and corrected it with semanage fcontext plus restorecon.
+[Lab 1 Apache File Context Mismatch](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-05-SELinux/docs/apache-file-context.md) deployed content in a non-standard directory, observed a real 403 and the AVC denial behind it, recognized audit2allow's suggestion was the wrong fix, and corrected it with semanage fcontext plus restorecon.
 
-Lab 2, Non-Standard Port Context: moved Apache to a non-default port, observed the bind failure and its AVC denial (name_bind against unreserved_port_t), and fixed it with semanage port.
+[Lab 2 Non-Standard Port Context](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-05-SELinux/docs/nonstandard-port-context.md) moved Apache to a non-default port, observed the bind failure and its AVC denial (name_bind against unreserved_port_t), and fixed it with semanage port.
 
-Lab 3, Context Corruption and Restoration: corrupted both a standard system path and a custom path with an existing policy rule, proving restorecon's behavior depends entirely on whether a correct policy answer already exists for that path.
+[Lab 3 Context Corruption and Restoration](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-05-SELinux/docs/restoring-SELinux-labels.md) corrupted both a standard system path and a custom path with an existing policy rule, proving restorecon's behavior depends entirely on whether a correct policy answer already exists for that path.
 
-Lab 4, Automated Relabel Playbook: built an idempotent Ansible playbook using community.general.sefcontext and a changed_when-guarded restorecon task, automating the manual workflow from Labs 1-3.
+[Lab 4 Automated Relabel Playbook](https://github.com/morgan-clow/devsecops-lab/blob/main/phase-1/week-05-SELinux/docs/automate-SELinux-Relabel) built an idempotent Ansible playbook using community.general.sefcontext and a changed_when-guarded restorecon task, automating the manual workflow from Labs 1-3.
 
 ## Real-World Incident Patterns Demonstrated
 
